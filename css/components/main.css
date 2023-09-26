@@ -122,11 +122,11 @@ body {
   transition: transform 0.5s;
   transform: scaleX(0);
   transform-origin: right;
-  background-color: black;
+  background-color: var(--superlight);
 }
 
 .link:hover .title-page:hover {
-  color: #fff;
+  color: var(--superlight);
 }
 
 .link:hover::after,

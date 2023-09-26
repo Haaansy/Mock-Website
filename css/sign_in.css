@@ -9,6 +9,7 @@
 }
 
 .box {
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
   margin-top: 60px;
   position: relative;
   width: 400px;

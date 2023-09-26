@@ -2,14 +2,14 @@
   display: flex;
   margin: 25px;
   margin-top: 45px;
-  height: 800px;
 }
 .left-container {
   width: 40%;
   background-color: rgba(255, 255, 255, 0.7);
   margin-right: 25px;
-  border-radius: 5%;
-  box-shadow: 5px 10px black;
+  border-radius: 25px;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  height: 50%;
 }
 
 .left-container-context {
@@ -19,7 +19,7 @@
 .visions,
 .vision {
   margin-top: 15%;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
@@ -32,6 +32,7 @@
 #ch:checked ~ .visions {
   display: block;
 }
+
 #ch:checked ~ .chch {
   display: none;
 }
@@ -40,6 +41,8 @@
 }
 .chch {
   text-align: center;
+  margin-bottom: 15px;
+  border-radius: 25px;
 }
 
 label {
@@ -59,14 +62,14 @@ label {
   width: 65%;
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  border-radius: 5%;
-  box-shadow: 5px 10px black;
+  border-radius: 25px;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
 }
 
 .Boxes {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 5px;
+  column-gap: 15px;
 }
 
 .cards {
